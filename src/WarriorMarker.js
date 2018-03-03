@@ -33,14 +33,14 @@ export default class WarriorMarker extends Component {
           preset: 'custom'
         }}
       >
-      <a-image cursor-listener height={0.5} front="front" src="/images/warrior.png">
-        <a-animation
+      <a-image cursor-listener rotation="-90 0 0 " front="front" src="/images/warrior.png">
+        {/* <a-animation
             attribute="rotation"
             to="360 0 0"
             dur="2000"
             easing="linear"
             repeat="indefinite"
-        />
+        /> */}
       </a-image>
       <a-text
         position="0 1 0"
