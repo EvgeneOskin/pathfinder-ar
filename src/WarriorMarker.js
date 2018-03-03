@@ -29,12 +29,9 @@ export default class WarriorMarker extends Component {
         parameters={{
           type: 'pattern',
           patternUrl: '/patterns/warrior.patt',
-          'hit-testing-renderDebug': true,
           preset: 'custom'
         }}
       >
-
-
 
       <a-entity
         material="color: #FFF0; shader: flat"
