@@ -33,7 +33,22 @@ export default class WarriorMarker extends Component {
           preset: 'custom'
         }}
       >
-      <a-image cursor-listener rotation="-90 0 0 " front="front" src="/images/warrior.png">
+
+
+
+      <a-entity
+        material="color: #FFF0; shader: flat"
+        light="color: #DDDDFF; distance: 120; intensity: 0.5; type: point"
+        rotation="-90 0 0 "
+        position="0 1 0 "
+      />
+
+      <a-box cursor-listener
+        height={0.1}
+        light="type:directional; castShadow:true;"
+        // rotation="-90 0 0 "
+        src="/images/warrior.png"
+        >
         {/* <a-animation
             attribute="rotation"
             to="360 0 0"
@@ -41,7 +56,7 @@ export default class WarriorMarker extends Component {
             easing="linear"
             repeat="indefinite"
         /> */}
-      </a-image>
+      </a-box>
       <a-text
         position="0 1 0"
         value={health}
