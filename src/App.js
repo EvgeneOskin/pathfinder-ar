@@ -14,7 +14,6 @@ class App extends Component {
     return (
       <AFrameRenderer
         // arToolKit={{ sourceType: 'image', sourceUrl: '/images/warrior_marker.png'}}
-        stats
         getSceneRef={ref => (this.scene = ref)}
         inherent={true}
       >

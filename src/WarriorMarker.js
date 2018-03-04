@@ -28,7 +28,7 @@ export default class WarriorMarker extends Component {
     return <Marker
         parameters={{
           type: 'pattern',
-          patternUrl: '/patterns/warrior.patt',
+          patternUrl: 'patterns/warrior.patt',
           preset: 'custom'
         }}
       >
@@ -44,7 +44,7 @@ export default class WarriorMarker extends Component {
         height={0.1}
         light="type:directional; castShadow:true;"
         // rotation="-90 0 0 "
-        src="/images/warrior.png"
+        src="images/warrior.png"
         >
         {/* <a-animation
             attribute="rotation"
